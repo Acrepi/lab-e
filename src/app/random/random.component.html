@@ -1,0 +1,12 @@
+<div class="box" xmlns="http://www.w3.org/1999/html">
+  <h2>RANDOM COMPONENT</h2>
+  <hr>
+  <div class="left">
+    <span>Max number: {{max}}</span><br>
+    <span>My number: {{myNumber}}</span><br>
+  </div>
+  <button (click)="btnClick()">GET NEW<br>NUMBER</button>
+  <hr>
+  <div *ngIf="isSmallerThanHalf()" class="bottom">Number belongs to <span [class.green]="isSmallerThanHalf()">bottom</span> half.</div>
+  <div *ngIf="!isSmallerThanHalf()" class="bottom">Number belongs to <span [class.red]="!isSmallerThanHalf()">upper</span> half.</div>
+</div>

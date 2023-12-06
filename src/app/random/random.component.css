@@ -1,0 +1,42 @@
+.box {
+  border: 2px solid black;
+  padding: 12px;
+  margin: 15px;
+  display: inline-block;
+  font-family: Arial, serif;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.left {
+  float: left;
+}
+
+button {
+  margin: 0 0 10px 0;
+  float: right;
+}
+hr {
+  clear: both;
+  margin: 0 0 10px 0;
+  border: 1px solid black;
+}
+
+.bottom {
+  clear: left;
+}
+
+.green {
+  color: #83ce07;
+  font-weight: bold;
+}
+
+.red {
+  color: #e3073a;
+  font-weight: bold;
+}
