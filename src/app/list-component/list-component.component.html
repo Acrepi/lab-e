@@ -1,0 +1,14 @@
+<div>
+  <table >
+    <tr>
+      <th>Names</th>
+      <th>ID</th>
+      <th>ACTION</th>
+    </tr>
+    <tr *ngFor="let person of people; index as i;">
+      <td><a routerLink="/details/{{i}}">{{person["firstName"]}} {{person["lastName"]}}</a></td>
+      <td>{{i}}</td>
+      <td><a class="delete" (click)="delete(i)">DELETE</a></td>
+    </tr>
+  </table>
+</div>

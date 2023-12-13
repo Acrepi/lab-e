@@ -1,0 +1,29 @@
+<div *ngIf="person">
+  <h2>{{person.firstName}} {{person.lastName}}</h2>
+  <table>
+    <tr>
+      <td><b>ID</b></td>
+      <td>{{personId}}</td>
+    </tr>
+    <tr>
+      <td><b>Age</b></td>
+      <td>{{person.age}}</td>
+    </tr>
+    <tr>
+      <td><b>City</b></td>
+      <td>{{person.address.city}}</td>
+    </tr>
+    <tr>
+      <td><b>Street</b></td>
+      <td>{{person.address.street}}</td>
+    </tr>
+    <tr>
+      <td><b>Post code</b></td>
+      <td>{{person.address.postCode}}</td>
+    </tr>
+  </table>
+</div>
+
+<div *ngIf="!person">
+  <h2>PERSON NOT FOUND!</h2>
+</div>

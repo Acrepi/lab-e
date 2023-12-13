@@ -1,0 +1,11 @@
+<div>
+  <form>
+    <input type="text" name="firstName" [(ngModel)]="person.firstName" placeholder="First Name"><br>
+    <input type="text" name="lastName" [(ngModel)]="person.lastName" placeholder="Last Name"><br>
+    <input type="number" name="ageName" [(ngModel)]="person.age" placeholder="Age"><br>
+    <input type="text" name="city" [(ngModel)]="person.address.city" placeholder="City"><br>
+    <input type="text" name="city" [(ngModel)]="person.address.street" placeholder="Street"><br>
+    <input type="text" name="city" [(ngModel)]="person.address.postCode" placeholder="Post Code"><br>
+    <input type="submit" value="ADD PERSON" class="submit" (click)="save()">
+  </form>
+</div>

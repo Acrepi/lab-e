@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49386");
+  font-family: Arial, serif;
+}
+
+header{
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #3a3a8a;
+  color: white;
+}
+
+h1{
+  margin: 0;
+}
+
+nav{
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #5b5bb4;
+  color: white;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a:active {
+  color: #d30000;
+}
+
+footer{
+  width: 100%;
+  padding: 20px;
+  background-color: #5b5bb4;
+  color: white;
+}
+
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 5px 10px;
+}

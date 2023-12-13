@@ -1,0 +1,22 @@
+div{
+  padding: 20px;
+}
+
+a {
+  color: #5b5bb4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: #d30000;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
