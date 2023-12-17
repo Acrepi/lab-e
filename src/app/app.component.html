@@ -1,10 +1,10 @@
 <header>
   <h1>Backend-Based Task Manager</h1>
 </header>
-<nav>
-  <a routerLink="/tasks">TASKS</a>
-  <a routerLink="/archive">ARCHIVE</a>
-</nav>
+<mat-toolbar>
+    <a routerLink="/tasks"><button mat-flat-button color="primary">TASKS</button></a>
+    <a routerLink="/archive"><button mat-flat-button color="primary">ARCHIVE</button></a>
+</mat-toolbar>
 
 <div class="router-outlet">
   <router-outlet></router-outlet>

@@ -1,14 +1,17 @@
 <div class="container">
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Deadline</th>
-      <th>Action</th>
-    </tr>
-    <tr *ngFor="let task of tasks;">
-      <td [ngClass]="{'completed': task.completed}">{{task.title}}</td>
-      <td [ngClass]="{'completed': task.completed}">{{(task.deadline ? task.deadline : "")}}</td>
-      <td><button (click)="deleteTask(task)">DELETE</button></td>
-    </tr>
-  </table>
+  <div class="form-container">
+    <mat-card *ngFor="let task of tasks;" class="card">
+      <mat-card-header>
+        <mat-card-title>{{task.title}}</mat-card-title>
+        <mat-card-subtitle>{{(task.deadline ? task.deadline : "")}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions>
+        &nbsp;&nbsp;&nbsp;Delete &nbsp;&nbsp;-> <button mat-icon-button (click)="deleteTask(task)">
+        <mat-icon>
+          delete
+        </mat-icon>
+      </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
 </div>

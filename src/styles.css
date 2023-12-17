@@ -1,11 +1,6 @@
-body {
-  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49386");
-  font-family: Arial, serif;
-}
-
 header{
   width: 100%;
-  padding: 30px 20px;
+  padding: 30px 20px 15px 20px;
   background-color: #3a3a8a;
   color: white;
 }
@@ -44,11 +39,21 @@ footer{
 }
 
 table, th, td{
-  border: 2px solid black;
+  border: 2px solid #424242;
   border-collapse: collapse;
-  background-color: white;
 }
 
 th, td{
   padding: 5px 10px;
 }
+
+th {
+  background-color: #424242;
+}
+
+a{
+  margin-right: 10px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -24,7 +24,7 @@ td {
 }
 
 hr {
-  border: 1px solid black;
+  border: 1px solid #424242;
   margin: 20px;
 }
 
@@ -43,22 +43,14 @@ form input {
   font-size: 15px;
 }
 
-form .date {
-  position: relative;
-  top: -1px;
-}
-
-form .submit {
-  width: 50px;
-  margin-right: 0;
-}
-
 .completed {
   text-decoration: line-through;
 }
 
 button {
-  width: 444px;
-  margin: 0;
-  font-size: 15px;
+  width: 470px;
+}
+
+.card {
+  margin-bottom: 10px;
 }

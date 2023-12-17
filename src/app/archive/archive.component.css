@@ -23,3 +23,12 @@ button {
   font-size: 15px;
   width: 100px;
 }
+
+.form-container {
+  margin: 0 auto;
+  width: 470px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
