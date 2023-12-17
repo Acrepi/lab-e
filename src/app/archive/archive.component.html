@@ -1,0 +1,14 @@
+<div class="container">
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Deadline</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let task of tasks;">
+      <td [ngClass]="{'completed': task.completed}">{{task.title}}</td>
+      <td [ngClass]="{'completed': task.completed}">{{(task.deadline ? task.deadline : "")}}</td>
+      <td><button (click)="deleteTask(task)">DELETE</button></td>
+    </tr>
+  </table>
+</div>

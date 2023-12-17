@@ -1,0 +1,64 @@
+.container {
+  padding: 20px 0;
+  width: 100%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th:nth-of-type(1) {
+  width: 200px;
+}
+
+th:nth-of-type(2), th:nth-of-type(3) {
+   width: 100px;
+ }
+
+td:nth-of-type(2), td:nth-of-type(3) {
+  text-align: center;
+}
+
+td {
+  height: 24px;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.form-container {
+  margin: 0 auto;
+  width: 470px;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+}
+
+form input {
+  width: 195px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+form .date {
+  position: relative;
+  top: -1px;
+}
+
+form .submit {
+  width: 50px;
+  margin-right: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  width: 444px;
+  margin: 0;
+  font-size: 15px;
+}
